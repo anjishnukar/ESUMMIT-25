@@ -63,7 +63,68 @@ a {
 body {
     -ms-overflow-style: none;
 }
+.page-loading {
+    position: fixed;
+    z-index: 999999;
+    inset: 0;
+    pointer-events: none;
+}
+.bg-overlay-gain.is--light {
+    opacity: .35;
+    mix-blend-mode: color-dodge;
+}
+.loading-screen {
+    background-color: var(--color-light);
+}
+.numbers-wrapper {
+    color: var(--color-secondary);
+    bottom: 3em;
+    right: 3em;
+    justify-content: flex-start;
+    display: flex;
+    position: absolute;
+}
+.number {
+    flex-flow: column;
+    height: .85em;
+    font-size: 15em;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
 
+.number-item {
+    text-transform: uppercase;
+    width: .365em;
+    font-family: 'Schabo Condensed';
+    font-size: 1em;
+    font-weight: 400;
+    line-height: .85;
+}
+.number.number-3.number-list {
+    margin-right: .15em;
+}
+.number-itemercentage {
+    opacity: 0;
+    width: 5.5em;
+    position: absolute;
+    bottom: -1em;
+    right: -1em;
+}
+svg.loading-sprite__svg {
+    position: absolute;
+    width: 400%;
+    top: 0;
+    left: 0;
+    animation: sprite 0.7s steps(4, end) infinite;
+}
+.loading-sprite {
+    width: 12rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .top-banner-text-wrapper {
     background-color: #2a2d29;
     transition: transform 0.735s cubic-bezier(0.62, 0.05, 0.01, 0.99);
@@ -2129,6 +2190,8 @@ svg.close-svg {
 
     .step-btn-wrapper {
         width: 18rem;
+        display: flex;
+        justify-content: flex-end;
     }
     .accordion-title h1 {
         font-size: 6.9em;
@@ -2421,5 +2484,7 @@ svg.close-svg {
     .step-2-footer-middle {
         max-width: unset;
     }
-    
+    .scroll-to-bottom {
+        left: 3em;
+    }
 }
