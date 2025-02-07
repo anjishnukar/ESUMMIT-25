@@ -645,7 +645,7 @@ h2.count-down-title {
 .destoyed-flame-svg {
     width: 5em;
     position: absolute;
-    top: -5em;
+    top: 0em;
     left: 2.7em;
 }
 
