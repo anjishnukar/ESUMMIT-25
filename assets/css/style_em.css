@@ -937,6 +937,7 @@ svg.gameplan-arrow.sceond {
 .accordion-toggler {
     padding: 6.5em var(--container-right-padding)6.5em var(--container-left-padding);
     cursor: pointer;
+    align-items: baseline;
 }
 
 .border-bg-top {
@@ -1105,7 +1106,10 @@ svg.gameplan-arrow.sceond {
 .flickity-slide {
     width: 50%;
     display: block;
+    align-items: baseline;
 }
+
+
 
 .dot .dot-inner {
     background-color: var(--color-light-50);
@@ -1131,6 +1135,7 @@ svg.gameplan-arrow.sceond {
     background-color: var(--color-primary) !important;
 }
 
+
 .catalogue-slider-background {
     pointer-events: none;
     width: 68%;
@@ -1151,6 +1156,7 @@ svg.gameplan-arrow.sceond {
     width: 120%;
     position: relative;
     left: -10%;
+    align-items: baseline;
 }
 
 .flickity-prev-next-button {
