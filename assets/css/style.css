@@ -18,8 +18,9 @@
     --size-container: var(--size-container-ideal);
     --gap: 2.5em;
     --border-radius: 0em;
-    --color-primary: #00cf78;
-    --color-secondary: #00554b;
+    /* --color-primary: #f96489; */
+    --color-primary: #f96489;
+    --color-secondary: #f36086;
     --color-danger: #eb4545;
     --color-white: #ffffff;
     --color-light: #ceeec6;

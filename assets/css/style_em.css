@@ -9,8 +9,9 @@
     --side-padding: 3.75em;
     --container-left-padding: 10em;
     --container-right-padding: 10em;
-    --color-primary: #00cf78;
-    --color-secondary: #00554b;
+    /* --color-primary: #f96489; */
+    --color-primary: #f96489;
+    --color-secondary: #210208;
     --color-danger: #eb4545;
     --color-white: #ffffff;
     --color-light: #ceeec6;
@@ -1685,6 +1686,15 @@ li.marquee-list {
     font-family: 'Comedik';
     line-height: .9;
     color: var(--color-primary);
+    text-align: left;
+}
+
+.combo-text h1{
+    font-size: 4.912em;
+    font-family: 'Comedik';
+    line-height: .9;
+    color: var(--color-primary);
+    text-align: center;
 }
 
 .recap-desc{

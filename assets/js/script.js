@@ -166,15 +166,16 @@ function initBasicFunctions() {
         const targetDate = countDown.attr('data-countdown');
 
         const daysLeft = calculateDaysFromToday(targetDate);
+        
 
         function formatNumber(number) {
             return number.toString().padStart(3, '0');
         }
 
         if (daysLeft > 0) {
-            countDownAmount = formatNumber(daysLeft);
+          countDownAmount = formatNumber(25);
         } else {
-            countDownAmount = formatNumber(0);
+          countDownAmount = formatNumber(25);
         }
     }
 
