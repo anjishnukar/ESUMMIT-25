@@ -289,9 +289,21 @@ svg.loading-sprite__svg {
 }
 
 .combo-logo svg {
-    max-width: 8.45rem;
+    display: block;
+    height: 10vh;
+    width: 16vw;
+}
+
+.combo-logo svg image {
     width: 100%;
-    cursor: pointer;
+    height: 100%;
+    object-fit: contain;
+}
+
+.combo-logo image{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
 }
 
 .logo-text {
@@ -2044,6 +2056,14 @@ svg.close-svg {
     }
 
     .combo-logo svg {
+        max-width: 8.45rem;
+        width: 100%;
+        cursor: pointer;
+        color: var(--color-primary);
+    }
+
+
+    .combo-logo image {
         max-width: 8.45rem;
         width: 100%;
         cursor: pointer;

@@ -215,6 +215,12 @@ a {
     cursor: pointer;
 }
 
+.combo-logo image {
+    max-width: 115px;
+    width: 100%;
+    cursor: pointer;
+}
+
 .logo-text {
     font-family: 'Comedik';
     font-size: 35px;
