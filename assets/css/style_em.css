@@ -15,7 +15,7 @@
     --color-danger: #eb4545;
     --color-white: #ffffff;
     --color-light: #ffd2ff;
-    --color-light-50: #73836f;
+    --color-light-50: #b08bff;
     --color-dark-50: #2a2d29;
     --color-black: #000;
     --color-dark: #181818;
@@ -138,14 +138,14 @@ svg.loading-sprite__svg {
 .banner-title {
     font-family: 'Comedik';
     font-size: 1.368em;
-    color: #73836f;
+    color: var(--color-light-50);
 }
 
 .banner-text {
     font-family: "Figtree", sans-serif;
     font-size: 1.123em;
     font-weight: 700;
-    color: #73836f;
+    color: var(--color-light-50);
 }
 
 .banner-item-wrapper {
